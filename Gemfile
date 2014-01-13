@@ -2,6 +2,7 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.0.2'
+gem 'blacklight'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
@@ -43,3 +44,7 @@ end
 
 # Use debugger
 # gem 'debugger', group: [:development, :test]
+
+gem "bootstrap-sass"
+gem "devise"
+gem "devise-guests", "~> 0.3"
